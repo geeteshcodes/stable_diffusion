@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter & checkpoints
+.ipynb_checkpoints/
+
+# Model weights, datasets & caches
+*.h5
+*.ckpt*
+*.index
+*.data*
+*.npy
+*.npz
+*.zip
+*.tar.gz
+
+# Data directories
+data/
+downloads/
+cache/
+
+# Training run artifacts
+t2i_run/
+train.log
+logs/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
